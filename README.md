@@ -23,7 +23,7 @@ This package turns your application into Service Provider with the support of mu
 ##### Step 1. Install dependency
 
 ```
-composer require 24slides/laravel-saml2
+composer require joshuacadman01/laravel-azure-sso
 ```
 
 If you are using Laravel 5.5 and higher, the service provider will be automatically registered.
@@ -276,33 +276,4 @@ Run the following in the package folder:
 vendor/bin/phpunit
 ```
 
-## Security
 
-If you discover any security related issues, please email **brezzhnev@gmail.com** instead of using the issue tracker.
-
-## Credits
-
-- [aacotroneo][link-original-author]
-- [brezzhnev][link-author]
-- [All Contributors][link-contributors]
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-[ico-version]: https://poser.pugx.org/24slides/laravel-saml2/v/stable?format=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/24Slides/laravel-saml2.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/24slides/laravel-saml2.svg?style=flat-square
-[ico-code-coverage]: https://img.shields.io/scrutinizer/coverage/g/24slides/laravel-saml2.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/24slides/laravel-saml2.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/24slides/laravel-saml2
-[link-travis]: https://travis-ci.org/24Slides/laravel-saml2
-[link-scrutinizer]: https://scrutinizer-ci.com/g/24slides/laravel-saml2/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/24slides/laravel-saml2
-[link-code-coverage]: https://scrutinizer-ci.com/g/24Slides/laravel-saml2
-[link-downloads]: https://packagist.org/packages/24slides/laravel-saml2
-[link-original-author]: https://github.com/aacotroneo
-[link-author]: https://github.com/brezzhnev
-[link-contributors]: ../../contributors
